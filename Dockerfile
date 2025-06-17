@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /File-store-bot-clone
-WORKDIR /File-store-bot-clone
-COPY . /File-store-bot-clone
+RUN mkdir /janu
+WORKDIR /janu
+COPY . /janu
 CMD ["python", "bot.py"]
