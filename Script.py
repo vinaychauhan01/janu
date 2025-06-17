@@ -12,7 +12,7 @@ class script(object):
 
 ⚙️ sɪᴢᴇ : {file_size}
 
-Jᴏɪɴ [Anime ᴄʜᴀɴɴᴇʟ](https://t.me/Animeworld_zone)</b>""" 
+Jᴏɪɴ [Anime ᴄʜᴀɴɴᴇʟ](https://t.me/+7rMwUJ8z5MxhYjY1)</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -50,7 +50,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/V_Sbotmaker>🅱🅾🆃 🅼🅰🅺🅴🆁 ® 🇮🇳 ® 🅼🅾🆅🅸🅴🆂 🆆🅰🅻🅰</a>
 
-📢 Anime ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Animeworld_zone>Ꭺɴɪᴍᴇꪝᴏʀʟᴅ㊝ ᴢᴏɴᴇ</a></b>
+📢 Anime ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/+7rMwUJ8z5MxhYjY1>Ꭺɴɪᴍᴇꪝᴏʀʟᴅ㊝ ᴢᴏɴᴇ</a></b>
 """
 
     CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
