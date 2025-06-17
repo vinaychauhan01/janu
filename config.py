@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "24261324"))
 API_HASH = environ.get("API_HASH", "ddbeca31c74acc3598c68111647b7a72")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://envs.sh/X79.png')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/Xm8.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5741918628 6696306143').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "@Nexxuspvt_bot") # without @
 PORT = environ.get("PORT", "8080")
