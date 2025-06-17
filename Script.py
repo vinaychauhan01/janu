@@ -48,9 +48,9 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Januop>🅱🅾🆃</a>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Januop>➺❥Aησѕ νσℓ∂ιgσα∂🥂𝆺꯭𝅥⎯꯭ͯ⟶</a>
 
-📢 Anime ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/+7rMwUJ8z5MxhYjY1>Ꭺɴɪᴍᴇꪝᴏʀʟᴅ㊝ ᴢᴏɴᴇ</a></b>
+📢 Anime ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/+7rMwUJ8z5MxhYjY1>𝐇𝐢𝐧𝐝𝐢 𝐀𝐧𝐢𝐦𝐞 𝐒𝐭𝐚𝐭𝐢𝐨𝐧™</a></b>
 """
 
     CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
