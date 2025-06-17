@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "21518327"))
-API_HASH = environ.get("API_HASH", "e72f588b3e4763f01eecfc3c4aa7e8ac")
+API_ID = int(environ.get("API_ID", "24261324"))
+API_HASH = environ.get("API_HASH", "ddbeca31c74acc3598c68111647b7a72")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/X79.png')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5741918628 6696306143').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "@r_filestorettbot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "@Nexxuspvt_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "10")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "600")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001839965169"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002270774398"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
