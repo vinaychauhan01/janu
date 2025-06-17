@@ -19,8 +19,7 @@ def is_enabled(value, default):
       
 # Bot Information
 API_ID = int(environ.get("API_ID", "21518327"))
-API_HASH = environ.get("API_HASH", "e72f588b3e4763f01eecfc3c4aa7e8ac
-")
+API_HASH = environ.get("API_HASH", "e72f588b3e4763f01eecfc3c4aa7e8ac")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
