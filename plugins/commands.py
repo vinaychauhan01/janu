@@ -80,11 +80,11 @@ async def start(client, message):
         if btn:
             username = (await client.get_me()).username
             if message.command and len(message.command) > 1:
-                btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton(" Try Again ", url=f"https://t.me/{username}?start={message.command[1]}")])
             else:
-                btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
+                btn.append([InlineKeyboardButton(" Try Again ", url=f"https://t.me/{username}?start=true")])
             await message.reply_text(
-                f"<b>👋 Hello {message.from_user.mention},\n\nPlease join the channel(s) to use this bot. Then click 'Try Again'.</b>",
+                f"<b> Hello {message.from_user.mention},\n\nPlease join the channel(s) to use this bot. Then click 'Try Again'.</b>",
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             return
