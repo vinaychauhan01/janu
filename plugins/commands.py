@@ -24,16 +24,24 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-async def is_subscribed(bot, query, channel):
+
+async def is_subscribed(bot, query, channels):
     btn = []
-    for id in channel:
-        chat = await bot.get_chat(int(id))
+    for ch in channels:
         try:
-            await bot.get_chat_member(id, query.from_user.id)
+            chat = await bot.get_chat(ch)  # Works with ID, username, or link
+            await bot.get_chat_member(chat.id, query.from_user.id)
         except UserNotParticipant:
-            btn.append([InlineKeyboardButton(f'Join {chat.title}', url=chat.invite_link)])
+            try:
+                invite_link = chat.invite_link
+                if not invite_link:
+                    invite = await bot.create_chat_invite_link(chat.id)
+                    invite_link = invite.invite_link
+                btn.append([InlineKeyboardButton(f'Join {chat.title}', url=invite_link)])
+            except ChatAdminRequired:
+                btn.append([InlineKeyboardButton(f'Join {chat.title}', url=f"https://t.me/{chat.username}")])
         except Exception as e:
-            pass
+            print(f"[ForceSub Error] {e}")
     return btn
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
