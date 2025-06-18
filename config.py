@@ -8,7 +8,7 @@ import os
 from os import environ
 from Script import script
 
-id_pattern = re.compile(r'^.\d+$')
+id_pattern = re.compile(r'^-100\d+$')
 def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
         return True
@@ -18,7 +18,11 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002000565717 -1002110312872 https://t.me/+7rMwUJ8z5MxhYjY1').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
+
+
+
+# Accepts both channel IDs and links/usernames
+AUTH_CHANNEL = [ int(ch) if id_pattern.match(ch) else ch for ch in environ.get("AUTH_CHANNEL","https://t.me/+7rMwUJ8z5MxhYjY1").split()]
 
 API_ID = int(environ.get("API_ID", "24261324"))
 API_HASH = environ.get("API_HASH", "ddbeca31c74acc3598c68111647b7a72")
