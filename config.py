@@ -22,7 +22,7 @@ def is_enabled(value, default):
 
 
 # Accepts both channel IDs and links/usernames
-AUTH_CHANNEL = [ int(ch) if id_pattern.match(ch) else ch for ch in environ.get("AUTH_CHANNEL","https://t.me/+7rMwUJ8z5MxhYjY1").split()]
+AUTH_CHANNEL = [ int(ch) if id_pattern.match(ch) else ch for ch in environ.get("AUTH_CHANNEL","-1002000565717 -1002405710937").split()]
 
 API_ID = int(environ.get("API_ID", "24261324"))
 API_HASH = environ.get("API_HASH", "ddbeca31c74acc3598c68111647b7a72")
