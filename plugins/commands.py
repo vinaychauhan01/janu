@@ -75,21 +75,18 @@ def formate_file_name(file_name):
 async def start(client, message):
     username = client.me.username
     if AUTH_CHANNEL:
-    try:
-        btn = await is_subscribed(client, message, AUTH_CHANNEL)
-        if btn:
-            username = (await client.get_me()).username
-            if message.command and len(message.command) > 1:
-                btn.append([InlineKeyboardButton(" Try Again ", url=f"https://t.me/{username}?start={message.command[1]}")])
-            else:
-                btn.append([InlineKeyboardButton(" Try Again ", url=f"https://t.me/{username}?start=true")])
-            await message.reply_text(
-                f"<b> Hello {message.from_user.mention},\n\nPlease join the channel(s) to use this bot. Then click 'Try Again'.</b>",
-                reply_markup=InlineKeyboardMarkup(btn)
-            )
-            return
-    except Exception as e:
-        print(f"[StartHandler ForceSub Error] {e}")
+        try:
+            btn = await is_subscribed(client, message, AUTH_CHANNEL)
+            if btn:
+                username = (await client.get_me()).username
+                if message.command[1]:
+                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
+                else:
+                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
+                await message.reply_text(text=f"<b>👋 Hello {message.from_user.mention},\n\nPlease join the channel then click on try again button. 😇</b>", reply_markup=InlineKeyboardMarkup(btn))
+                return
+        except Exception as e:
+            print(e)
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
