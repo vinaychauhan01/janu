@@ -12,7 +12,7 @@ class script(object):
 
 ⚙️ sɪᴢᴇ : {file_size}
 
-Jᴏɪɴ [Anime ᴄʜᴀɴɴᴇʟ](https://t.me/+7rMwUJ8z5MxhYjY1e)</b>""" 
+Jᴏɪɴ [Anime ᴄʜᴀɴɴᴇʟ](https://t.me/+7rMwUJ8z5MxhYjY1)</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
